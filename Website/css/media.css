@@ -93,6 +93,8 @@
     .mobile-nav-button {
         display:inline;
         margin-left: 300px;
+        width: 18px;
+        height: 10px;
     }
 
     .nav-list {
