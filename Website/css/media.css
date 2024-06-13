@@ -97,6 +97,12 @@
         height: 10px;
     }
 
+    .navbar {
+        margin-top: 50px;
+        position: fixed;
+        background-color: white;
+    }
+
     .nav-list {
         display: none;
     }
