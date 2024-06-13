@@ -1,0 +1,266 @@
+@media (max-width: 840px) {
+    .container {
+        max-width: 810px;
+    }
+
+    .navbar {
+        display: flex;
+        padding: 20px 40px;
+        max-width: 730px;
+    }
+
+    .logo {
+        padding: 0px;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 500;
+    }
+
+    .nav-item {
+        padding: 10px 20px;
+        font-size: 14px;
+        color:grey
+    }
+
+    .container-desc {
+        width: 732px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: ;
+        padding: 100px;
+        border-radius: 70px;
+    }
+
+    .desc-buttons {
+        margin-bottom: 10px;
+    }
+
+    .desc-box-email {
+        display: none ;
+    }
+
+    .FAQ-title {
+        font-size: 38px;
+        line-height: 57px;
+    }
+
+    .FAQ-help {
+        font-size: 18px;
+        max-width: 546px;
+        width: 100%;
+        text-align: center;
+        color: #B3B3BA;
+    }
+
+    .FAQ-banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 110%;
+        height: 230px;
+        border-radius: 40px;
+        background-color: #FC552F;
+        padding: 20px 30px;
+        color: white;
+    }
+
+    .contacts-list {
+        width: 700px;
+    }
+
+    .contact-list-item {
+        font-family: "DM Sans" sans-serif;
+        width: 180px;
+        font: 18px;
+        display: flex;
+        justify-content: center;
+        gap: 10px
+    }
+
+    .email-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .mobile-nav-button {
+        display:inline;
+        margin-left: 300px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .button-get-started {
+        display: none;
+    }
+    
+    .container-desc {
+        width: 390px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+        border-radius: 70px;
+    }
+
+    .simplify {
+        width: 350px;
+        height: 84px;
+        font-size: 28px;
+        line-height: 48px;
+    }
+
+    .simplify-desc {
+        width: 350px;
+        height: 84px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .desc-part2-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+
+
+    .desc-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .special-figure{
+        width: 350px;
+        max-height: 356px;
+        padding-top: 50px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+
+    .eclipse {
+        position: absolute;
+        top: 0;
+        left: 37%;
+    }
+
+    .desc-rectangle{
+        width: 260px;
+    }
+
+    .desc-box-email {
+        display: none;
+    }
+
+    .email-box {
+        display: none;
+    }
+
+    .pic2 {
+        width: 233.89px;
+        height: 264.54px;
+        border-radius: 40.33px;
+        margin-left: 57px;
+    }
+
+    .reviews-title {
+        font-size: 28px;
+        line-height: 42px;
+
+    }
+    
+    .reviews-container {
+        width: 350px;
+    }
+
+    .reviews-boxes-row{
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .FAQ-title {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .review-box {
+        max-width: 350px;
+    }
+
+    .FAQ {
+        max-height: 1531px;
+    }
+
+    .FAQ-header{
+        padding: 50px 20px;
+    }
+
+    .FAQ-questions-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FAQ-question-box {
+        width: 350px;
+        height: 94px;
+    }
+
+    .FAQ-special-box{
+        width: 350px;
+    }
+
+    .special {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .FAQ-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .foot-nav-list {
+        flex-direction: column;
+    }
+
+    .contacts-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rights-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    
+    .hidden {
+        display:inline;
+    }
+}

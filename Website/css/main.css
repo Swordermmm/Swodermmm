@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "./reset.css";
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Header */
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    max-width: 1000px;
+}
+
+.logo {
+    padding: 10px;
+    gap: 10px;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.logo-text {
+    color: #fC552F;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.nav-item {
+    padding: 10px 20px;
+    gap: 10px;
+    color:grey
+}
+
+
+.nav-link {
+    color: #6E727E;
+}
+
+.button-get-started {
+    width: 166px;
+    height: 54px;
+    border-radius: 15px 50px;
+    gap: 10px;
+    background-color: #fC552F;
+    color: white
+    
+}
+
+.mobile-nav-button {
+    display: none;
+}
+
+.button-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.44px;
+    align-self: center;
+}
+
+/* Desc */
+
+.container-desc {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    border-radius: 70px;
+}
+
+.desc-part1 {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-text {
+    max-width: 279.86px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.simplify {
+    width: 468.5px;
+    height: 144px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.simplify-desc {
+    width: 468.5px;
+    height: 81px;
+    opacity: 80%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #B3B3BA;
+}
+
+.desc-buttons {
+    display: flex;
+    gap: 20px
+}
+
+.desc-button1 {
+    width: 194px;
+    height: 63px;
+    border-radius: 15px 50px;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 15px 50px;
+    background-color: #fC552F;
+    color: white;
+}
+
+.desc-button2 {
+    width: 194px;
+    height: 63px;
+    border-radius: 15px 50px;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 15px 50px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #fC552F;
+    color:#fC552F;
+}
+
+.desc-box-email {
+    max-width: 468.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    padding: 55px 40px;
+    background-color: #1A1A1F;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #585858;
+    border-radius: 60px;
+    color: white;
+}
+
+.join-to-get {
+    max-width: 388.5px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.box-email-container {
+    border-radius: 15px 44px;
+    background-color: #07070C;
+    padding: 10px 20px;
+}
+
+.box-email {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.email-button {
+    width: 166px;
+    border-radius: 15px 50px;
+    padding: 16px 20px;
+    background-color: #fC552F;
+}
+
+.desc-part2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-part2-row{
+    display: flex;
+}
+
+.special-figure{
+    width: 279.86px;
+    max-height: 264.54px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.eclipse{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 34%;
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    background-color: #07070C;
+}
+
+.desc-rectangle{
+    width: 233px;
+    height: 143.56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#FC552F;
+    border-radius: 40.33px;
+    color: white;
+    margin: 0 0 0 45px;
+}
+
+.rectangle-text1 {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+
+.pic1 {
+    width: 233.89px;
+    height: 264.54px;
+    border-radius: 40.33px;
+}
+
+.pic2 {
+    width: 485.53px;
+    height: 264.54px;
+    border-radius: 40.33px;
+    margin: 10px 0 0 45px;
+}
+
+/* Reviews */
+
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px;
+}
+
+.reviews-title {
+    font-size: 48px;
+    line-height: 72px;
+    align-self: center;
+}
+
+.reviews-boxes-row{
+    display: flex;
+    gap: 20px
+}
+
+
+.review-box {
+    max-width: 320px;
+    max-height: 285px;
+    border-radius: 40px;
+    padding: 20px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F4F4F6;
+}
+
+.review-name {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color:#07070C
+}
+
+.review-text {
+    width: 260px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #B3B3BA;
+}
+
+/* FAQ */
+
+.FAQ {
+    display: flex;
+    justify-content: center;
+    width: fill;
+    max-height: 1300px;
+    gap: 40px;
+    background-color: #FFFCFB;
+}
+
+.FAQ-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    max-height: 1242px;
+    padding: 50px;
+    gap: 40px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border:1.5px;
+    border-color: #F4F4F6;
+    border-radius: 40px;
+}
+
+/* FAQ-header */
+
+.FAQ-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 320px;
+    padding: 100px 20px;
+    border-radius: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F4F4F6;
+    background-color: #FFFCFB;
+    align-self: center;
+}
+
+.FAQ-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+}
+
+.FAQ-help {
+    font-size: 16px;
+    max-width: 540px;
+    width: 100%;
+    text-align: center;
+    color: #B3B3BA;
+}
+
+/* FAQ-questions */
+
+.FAQ-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+.FAQ-questions-row {
+    display: flex;
+    gap: 10px;
+}
+
+.FAQ-question-box {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F4F4F6;
+}
+
+.FAQ-question-box-title {
+    max-width: 400px;
+    font-size: 18px;
+}
+
+.special {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQ-special-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.FAQ-question-box-description{
+    margin-left: 20px;
+    color:rgb(102, 99, 99);
+}
+
+/* FAQ-banner */
+
+.FAQ-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    height: 230px;
+    border-radius: 40px;
+    background-color: #FC552F;
+    padding: 20px 60px;
+    color: white;
+}
+
+.FAQ-banner-help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.FAQ-banner-text1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.FAQ-banner-text2 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.FAQ-banner-button{
+    width: 257px;
+    height: 63px;
+    background-color: #f5f2ed;
+    border-radius: 30px;
+    background-color: #FC552F;
+    border-radius: 15px 50px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: white;
+    padding: 16px 20px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #07070C;
+    padding: 50px;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 40px 40px 55px 40px;
+}
+
+/* Footer contacts */
+
+.contacts-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.logo-footer {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: white;
+}
+
+.footer-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.foot-nav-item {
+    padding: 10px 20px;
+    gap: 10px;
+    color:grey
+}
+
+.foot-nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+
+.contact-list-item {
+    font-family: "DM Sans" sans-serif;
+    font: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+/* Footer Email box */
+
+.email-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222c2;
+    width: 100%;
+    padding: 55px 53px;
+    gap: 30px;
+    max-width: 1000px;
+    border-radius: 60px;
+    color: white;
+    background-color: #1A1A1F;
+}
+
+.email-box-title{
+    font-size: 28px;
+    max-width: 400px;
+}
+.email-box-bar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-box-bar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #000000ce;
+    padding: 10px 20px;
+    border-radius: 15px 44px;
+}
+
+.email-input {
+    border-radius: 20px;
+    padding: 4px;
+    width: 100%;
+}
+
+.email-button {
+    background-color: #FC552F;
+    border-radius: 15px 50px;
+    padding: 10px;
+}
+/* Footer Rights*/
+
+
+.rights-container {
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    color: #E2E3E7;
+}
